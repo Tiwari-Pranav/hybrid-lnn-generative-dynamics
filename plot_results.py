@@ -85,7 +85,7 @@ for i, env in enumerate(envs):
 fig.legend(loc='upper center', bbox_to_anchor=(0.5, 1.02), ncol=5, frameon=False, fontsize=16)
 plt.tight_layout()
 plt.savefig("paper_rollout_results.png", dpi=300, bbox_inches='tight')
-print("✅ Saved paper_rollout_results.png")
+print("===> Saved paper_rollout_results.png")
 
 # ==========================================
 # 2. BIFURCATION (Safety)
@@ -124,4 +124,4 @@ if data:
     
     plt.tight_layout()
     plt.savefig("paper_bifurcation.png", dpi=300)
-    print("✅ Saved paper_bifurcation.png")
+    print("===> Saved paper_bifurcation.png")
