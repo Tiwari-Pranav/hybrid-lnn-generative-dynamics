@@ -23,7 +23,7 @@ labels = {
 linewidth = 2.5
 
 print("Loading data...")
-with open("grand_results.pkl", "rb") as f:
+with open("results.pkl", "rb") as f:
     results = pickle.load(f)
 
 # Helper: Smoothing function for aesthetic lines
